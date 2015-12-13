@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="css/style.css" async>
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker - Scott Professional</title>
+</head>
+<body>
+    <!-- Cat List View -->
+    <ul id="cat-list"></ul>
+    
+    <!-- Cat View      -->
+    <main> 
+        <h3 id="cat-name" class="cat-name">CAT : </h3>
+        <h3 id="cat-count" class="cat-count">Number of Clicks :</h3>
+          <p> <img id="cat-img" class="img-cat" src="" alt="cute cat picture"> </p>
+        <button type="button" id="adminButton">Admin Options</button>
+    </main>
+
+    <!-- Form View     -->
+    <p>
+    <form class="hide" id="adminForm">
+        <hr><br>
+        <p>
+            <label for="nameText"> Name </label>
+            <input type="text" id="nameText" name="nameText" />
+        </p>
+        <p>
+            <label for="URLText"> URL </label>
+            <input type="text" id="URLText" name="URLText" />
+        </p>
+        <p>
+            <label for="clickCountText"> Click Count </label>
+            <input type="text" id="clickCountText" name="clickCountText" />
+        </p>
+        <button id="cancel" type="cancel"> Cancel </button>
+        <button type="submit"> Save </button>
+    </form>
+    </p>
+
+
+
+    <script src="js/app.v2.js"></script>
+    <script src="js/libs/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+  padding: 5% 10%;
+}
+
+header {
+  text-align:center
+}
+
+nav {
+  width: 30%;
+  float: left;
+}
+
+main {
+  width: 70%;
+  float: left;
+}
+
+.form {
+    break-before: always;
+}
+
+
+img#img-cat {
+  cursor: pointer;
+  width:50px;
+}
+
+.pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.img-cat {
+  width:600px;
+  height:400px;
+  padding: 0% 10%;
+  break-after: always;
+}
+
+.cat_container {
+  width:45%;
+  position:absolute;
+  left 20px;
+}
+
+.cat-name {
+  position:absolute;
+  right 100px;
+}
+
+.cat-count {
+  padding-left:  100px;
+}
+
+.hide {
+  display:none;
+}
